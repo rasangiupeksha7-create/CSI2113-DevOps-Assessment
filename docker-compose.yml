@@ -1,6 +1,6 @@
 services:
   web:
-    build: .
+    image: rasangi06/csi2113-devops-app:latest
     container_name: csi2113-compose-app
     ports:
       - "5000:5000"
